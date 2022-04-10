@@ -1,0 +1,81 @@
+body{
+  background-color: black;
+}
+#holdsPlaybox{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+#playBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width:600px;
+    height: 600px;
+    border: 2px solid green;
+    flex-shrink: 0;
+    
+}
+#instructions {
+  color:  limegreen;
+  text-align:center;
+}
+#reset {
+  color:  green;
+  text-align:center;
+  color: limegreen;
+}
+#score {
+  color:  limegreen;
+  text-align:center;
+} 
+#difficultySelectors {
+  color:  limegreen;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+}  
+#difficultySelectors > * {
+  margin: 40px;
+}
+
+#highScoreWords {
+  color:  limegreen;
+  text-align:center;
+  margin-left: 100px;
+}
+#directions {
+  color:  limegreen;
+  text-align:center;
+  margin-right: 100px;
+}
+#highScore {
+  margin-bottom: 300px;
+}
+#w {
+  color:  limegreen;
+  text-align:center;
+  margin-right: 100px;
+}
+#asd {
+  color:  limegreen;
+  text-align:center;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+#arrowUp {
+  color:  limegreen;
+  text-align:center;
+  margin-right: 100px;
+}
+#otherArrows {
+  color:  limegreen;
+  text-align:center;
+  margin-right: 100px;
+}
+#or{
+  color:  limegreen;
+  text-align:center; 
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
